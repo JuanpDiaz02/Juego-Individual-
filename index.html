@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especies de Animales Argentinos</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Descubre las Especies de Animales Argentinos</h1>
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h4>Descripción del juego:</h4>
+                <p>
+                    Este juego está diseñado para ayudarte a aprender sobre diversas especies de animales argentinos.
+                    Completa las palabras en el tablero de acuerdo a las pistas proporcionadas.
+                </p>
+                <h4>Reglas del Juego:</h4>
+                <ul>
+                    <li>Lee las pistas proporcionadas y escribe la palabra correspondiente en el tablero.</li>
+                    <li>Todos los animales se escriben de manera "horizontal"</li>
+                    <li>Haz clic en cada cuadro para escribir una letra</li>
+                    <li>Haz clic en el botón "Verificar Respuesta" para comprobar si la palabra ingresada es correcta.</li>
+                    <li>Si la palabra es correcta, la pista correspondiente se marcará como completada y pasarás a la siguiente.</li>
+                    <li>Si la palabra es incorrecta, revisa tu respuesta y vuelve a intentarlo.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <table id="crucigrama" class="table table-bordered">
+
+                </table>
+                <button id="verificar-respuesta" class="btn btn-primary mt-3">Verificar Respuesta</button>
+            </div>
+            <div class="col-md-4">
+                <h4>Pistas:</h4>
+                <ul id="pistas" class="list-group">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
